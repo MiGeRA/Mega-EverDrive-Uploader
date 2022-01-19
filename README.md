@@ -1,6 +1,6 @@
 # Mega-EverDrive-Uploader
 
-Скорректированная и оптимизированная юзер-френдли сборка mega-usb - утилиты управления картриджем [Mega EverDrive](https://krikzz.com/our-products/legacy/megax7.html) (стоковый [исходный код](https://krikzz.com/pub/support/mega-everdrive/x3x5x7/dev/usb-tool/v2.0/) на сайте разработчика Mega EverDrive).
+Скорректированная и оптимизированная юзер-френдли сборка **mega-usb** - утилиты управления картриджем [Mega EverDrive](https://krikzz.com/our-products/legacy/megax7.html) (стоковый [исходный код](https://krikzz.com/pub/support/mega-everdrive/x3x5x7/dev/usb-tool/v2.0/) на сайте разработчика Mega EverDrive).
 
 #### Плюшки:
 + Встроена справочная легенда по формату использования и параметрам (/?);
