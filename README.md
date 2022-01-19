@@ -49,4 +49,4 @@ MEGAOS.bin	- Загрузка образа ОС в Mega EverDrive v1
 * Есть аппаратно-эмулируемый синтезатор YM2413;
 * Есть сопроцессор умножения/деления чисел (если не используется SVP).
 
-*PPS. Скомпиллированный, зазипованный экзешник: [mega-usb.zip](https://github.com/MiGeRA/Mega-EverDrive-Uploader/files/7899266/mega-usb.zip)*
+*PPS. Скомпиллированный, зазипованный экзешник: [mega-usb.exe.zip](https://github.com/MiGeRA/Mega-EverDrive-Uploader/files/7899587/mega-usb.exe.zip)*
