@@ -2,6 +2,7 @@
 
 Скорректированная и оптимизированная юзер-френдли сборка **mega-usb** - утилиты управления картриджем [Mega EverDrive](https://krikzz.com/our-products/legacy/megax7.html) (стоковый [исходный код](https://krikzz.com/pub/support/mega-everdrive/x3x5x7/dev/usb-tool/v2.0/) на сайте разработчика Mega EverDrive).
 
+![mega-everdrive](https://user-images.githubusercontent.com/24475390/150523382-7a897bad-1fcc-480d-82ca-3559f1771fc9.jpg)
 #### Плюшки:
 + Встроена справочная легенда по формату использования и параметрам (/?);
 + Детализированы сообщения по ходу работы утилиты;
