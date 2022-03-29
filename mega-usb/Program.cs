@@ -27,7 +27,7 @@ namespace mega_usb
 
                 if ((args.Length == 1) && ((args[0].Contains("?") || args[0].Contains("-help"))))
                 {
-                    Console.WriteLine("mega-usb {filename.ext} [-options]");
+                    Console.WriteLine("mega-usb <filename.ext> [-options]");
                     Console.WriteLine("");
                     Console.WriteLine("Fast usage by fixed \"filename.ext\" (w/o options):");
                     Console.WriteLine("");
@@ -129,10 +129,13 @@ namespace mega_usb
                 byte[] buff = new byte[len]; // Content
                 f.Read(buff, 0, (int)f.Length);
                 f.Close();
-
-                // Auto detect adsress-model
-                if (buff[261] == 'S' && buff[262] == 'S' && buff[263] == 'F' && buff[264] == ' ') option = "-ssf";
-                else if (len > 4096 * 1024) option = "-m10";
+                
+                // Auto detect adsress-model - 2-nd step (if not manual selected)
+                if (args.Length == 1)
+                {
+                    if (buff[261] == 'S' && buff[262] == 'S' && buff[263] == 'F' && buff[264] == ' ') option = "-ssf";
+                    else if (len > 4096 * 1024) option = "-m10";
+                }
 
                 // Final checks and transition to action ;-))
                 if (option.Equals("-o") || option.Equals("-fo"))
@@ -191,6 +194,7 @@ namespace mega_usb
 
         static void runGame(string arg, SerialPort port)
         {
+            Console.WriteLine("Selected is " + arg + " cart mode");
             Console.WriteLine("Game starting ...");
 
             switch (arg)
