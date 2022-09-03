@@ -43,15 +43,15 @@ namespace mega_usb
                     Console.WriteLine("Options detail usage for any \"filename.ext\" (excl. see above):");
                     Console.WriteLine("");
                     Console.WriteLine(" -smd      - Load file as SMD Generic ROM (default)         | *rm");
-                    Console.WriteLine(" -m10      - Load file as SMD \"big-ROM\" (10MB w/o mapper) | *rM");
+                    Console.WriteLine(" -m10      - Load file as SMD \"big-ROM\" (10MB w/o mapper)   | *rM");
                     Console.WriteLine(" -ssf      - Load file as SMD ROM with SSF-mapper           | *rS");
                     Console.WriteLine("             (Also used for full access EverDrive functions)");
                     Console.WriteLine(" -cd       - Load file as Mega-CD addon ROM (BIOS)          | *rc");
                     Console.WriteLine(" -32x      - Load file as 32X addon ROM                     | *r3");
                     Console.WriteLine(" -sms      - Load file as MasterSystem ROM                  | *rs");
                     Console.WriteLine(" -os       - Load file as EverDrive Application             | *ro");
-                    Console.WriteLine(" -m <mode> - Start previous load game, by manual-in code");
-                    Console.WriteLine("             (Use w/o filename, 3-symbol code see above ... | *r?)");
+                    Console.WriteLine(" -m <mode> - Relaunching loaded software, by raw start code");
+                    Console.WriteLine("             (W/o filename, full 3-symb. code *r? see above)");
                     Console.WriteLine(" -o        - Load file as OS 68k image to Mega EverDrive v1");
                     Console.WriteLine("             (Equivalent to MEGAOS.bin without options)");
                     Console.WriteLine(" -fo       - Similar to the previous one, but also writes");
